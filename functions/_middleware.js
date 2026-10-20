@@ -68,7 +68,7 @@ function getLoginHTML(error = "") {
         <input type="password" name="password" placeholder="パスワードを入力" required autofocus>
         <button type="submit">閲覧を開始する</button>
       </form>
-      ${error ? `<div class="error">${error}</div>` : ""}
+      \${error ? `<div class="error">\${error}</div>` : ""}
     </div>
   </body>
   </html>
